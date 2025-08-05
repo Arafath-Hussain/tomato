@@ -5,7 +5,8 @@
     justify-content: space-between;
     gap: 50px;
 }
-.title{
+
+.title {
     margin-bottom: 25px;
 }
 
@@ -28,11 +29,19 @@
     display: flex;
     gap: 10px;
 }
-.place-order-right{
+
+.place-order-right {
     width: 100%;
-    max-width: max(40% , 500px);
+    max-width: max(40%, 500px);
 }
-.place-order .cart-total button{
+
+.place-order .cart-total button {
     margin-top: 30px;
     width: 100%;
+}
+
+@media (max-width:750px) {
+    .place-order {
+        display: block;
+    }
 }
